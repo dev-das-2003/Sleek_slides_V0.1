@@ -1,0 +1,44 @@
+{
+  "name": "chat-interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build --turbo",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "next-ws patch"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/ws": "^8.5.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "15.0.0",
+    "lucide-react": "^0.539.0",
+    "motion": "^11.18.2",
+    "next": "^15.4.6",
+    "next-ws": "^1.2.0",
+    "postcss": "^8.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "swr": "^2.3.6",
+    "@tailwindcss/postcss": "^4.0.0",
+    "typescript": "^5.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/ws": "^8.5.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "15.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
